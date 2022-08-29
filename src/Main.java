@@ -44,6 +44,19 @@ public class Main {
         int capacityMonth=31*capacityOneDay;
         System.out.println("За месяц машина произвела "+ capacityMonth + " бутылок");
 
+        //Задача 5//
+        int bankTotal=120;
+        int bankWhiteOneClass=2;
+        int bankBrawnOneClass=4;
+        int totalClass=bankTotal/(bankWhiteOneClass+bankBrawnOneClass);
+        int bankWhiteTotal=totalClass*bankWhiteOneClass;
+        int bankBrawnTotal=totalClass*bankBrawnOneClass;
+        System.out.println("В школе, где "+ totalClass +" классов, нужно "+ bankWhiteTotal +" банок белой краски и "+ bankBrawnTotal +" банок коричневой краски.");
+
+
+
+
+
 
 
 
