@@ -67,6 +67,20 @@ public class Main {
         float weightTotalKg=weightTotalGr/1000f;
         System.out.println("Масса спортивного завтрака составляет "+weightTotalKg+" килограмм");
 
+        //Задача 7//
+        int weightTotalSportsmanKg=7;
+        int weightTotalSportsmanGr=weightTotalSportsmanKg*1000;
+        int totalDays250=weightTotalSportsmanGr/250;
+        int totalDays500=weightTotalSportsmanGr/500;
+        System.out.println("Если спортсмен будет терять по 250 гр в день, то ему понадобится " + totalDays250 + " дней.");
+        System.out.println("Если спортсмен будет терять по 500 гр в день, то ему понадобится " + totalDays500 + " дней.");
+        int totalDaysMean=(totalDays250+totalDays500)/2;
+        System.out.println("Для похудения спортсмена в среднем необходим " + totalDaysMean + " день.");
+
+
+
+
+
 
 
 
