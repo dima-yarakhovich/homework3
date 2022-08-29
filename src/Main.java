@@ -77,6 +77,30 @@ public class Main {
         int totalDaysMean=(totalDays250+totalDays500)/2;
         System.out.println("Для похудения спортсмена в среднем необходим " + totalDaysMean + " день.");
 
+        //Задача 8//
+
+        int moneyMMonth=67_760;
+        int moneyDMonth=83_690;
+        int moneyKMonth=76_230;
+        float moneyMMonthTop=moneyMMonth*1.1F;
+        float moneyDMonthTop=moneyDMonth*1.1F;
+        float moneyKMonthTop=moneyKMonth*1.1F;
+        float moneyMYearsTop=moneyMMonthTop*12F;
+        float moneyDYearsTop=moneyDMonthTop*12F;
+        float moneyKYearsTop=moneyKMonthTop*12F;
+        float moneyMYearsDif=moneyMYearsTop%(moneyMMonth*12F);
+        float moneyDYearsDif=moneyDYearsTop%(moneyDMonth*12F);
+        float moneyKYearsDif=moneyKYearsTop%(moneyKMonth*12F);
+        System.out.println("Маша теперь получает "+moneyMMonthTop+" рублей. Годовой доход вырос на "+moneyMYearsDif+" рублей.");
+        System.out.println("Денис теперь получает "+moneyDMonthTop+" рублей. Годовой доход вырос на "+moneyDYearsDif+" рублей.");
+        System.out.println("Кристина теперь получает "+moneyKMonthTop+" рублей. Годовой доход вырос на "+moneyKYearsDif+" рублей.");
+
+
+
+
+
+
+
 
 
 
