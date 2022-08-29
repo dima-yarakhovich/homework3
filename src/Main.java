@@ -54,6 +54,22 @@ public class Main {
         System.out.println("В школе, где "+ totalClass +" классов, нужно "+ bankWhiteTotal +" банок белой краски и "+ bankBrawnTotal +" банок коричневой краски.");
 
 
+        //Задача 6//
+        int weight1Banana=80;
+        int weight5Bananas=5*weight1Banana;
+        int weight100Milk=105;
+        int weight200Milk=2*weight100Milk;
+        int weight1Ice=100;
+        int weight2Ice=2*weight1Ice;
+        int weight1Egg=70;
+        int weight4Eggs=4*weight1Egg;
+        int weightTotalGr=weight5Bananas+weight200Milk+weight2Ice+weight4Eggs;
+        float weightTotalKg=weightTotalGr/1000f;
+        System.out.println("Масса спортивного завтрака составляет "+weightTotalKg+" килограмм");
+
+
+
+
 
 
 
